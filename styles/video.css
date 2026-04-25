@@ -1,0 +1,113 @@
+         .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 15px;
+
+           
+            row-gap: 40px;
+         }
+         @media(max-width: 750px){
+            .video-grid{
+               grid-template-columns: 1fr 1fr;
+            }
+      
+         @media(min-width: 1000px){
+            .video-grid{
+               grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+         }
+            }
+         @media(min-width: 851px) and (max-width: 999) 
+         {
+            .video-grid{
+               grid-template-columns: 1fr 1fr 1fr ;
+            }
+         }
+
+         
+         .video_preview{
+            width: 100%;
+            
+            
+           
+         
+           
+         }
+         .profile-row-grid{
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            margin-top: 15px;
+         }
+         .thumbnail{
+             position: relative;
+         }
+         
+            
+            
+            
+         
+         .thumbnail img{
+            width: 100%;
+           
+            
+            
+         }
+        
+         .profile-pic img{
+            width: 40px;
+            height: 40px;
+            border-radius: 25px;
+            display: inline-block;
+            
+
+         }
+         .video-title p{
+            margin-top: 0px;
+            width: 100%;
+            margin-bottom: 4px;
+            font-weight: 500;
+            
+            font-size: 15px;
+            line-height: 1.4;
+            font-family: roboto, arial;
+            
+            
+         }
+         .profile-info p{
+            display: inline-block;
+            width: 100%;
+            margin-left: 10px;
+            margin-top: px ;
+           
+         }
+         .author p{
+            margin-top: 4px;
+            margin-bottom: 0px;
+            display: inline-block;
+            line-height: 0px;
+            color: rgba(97, 94, 94, 0.863);
+            font-size: 15px;
+         }
+         .video-stats p{
+            margin-top: 3px;
+            color: rgba(97, 94, 94, 0.863);
+            font-size: 15px;
+
+         }
+         .timer{
+            background-color: black;
+            color: white;
+            font-family: roboto , arial;
+            font-size: 12px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+
+            padding-left: 4px;
+            padding-bottom:4px;
+            padding-right: 4px;
+            border-radius: 3px;
+            position: absolute;
+            bottom: 8px;
+            right: 5px;
+
+         }
